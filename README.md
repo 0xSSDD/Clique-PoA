@@ -65,7 +65,7 @@ Note: This isnt for a production environment
   "gasUsed":"0x0",
   "parentHash":"0x0000000000000000000000000000000000000000000000000000000000000000"
   }
-```
+
   Note: replace `<Node-1 Address>` with the actual Node 1 address from the previous step, and paste it without the 0x extension
 
 * In the `Node-1` folder, start the node-1 with `besu --data-path=data --genesis-file=../cliqueGenesis.json --network-id 123 --rpc-http-enabled --rpc-http-api=ETH,NET,CLIQUE --host-allowlist="*" --rpc-http-cors-origins="all"`
